@@ -92,6 +92,7 @@ body {
 .hero-photo-slot {
   flex: 1;
   width: 100%;
+  min-height: 180px;
   position: relative;
   border-radius: 14px 14px 0 0;
   overflow: hidden;
@@ -121,8 +122,8 @@ body {
   border-radius:50%;animation:pulse 2s ease-in-out infinite;flex-shrink:0;
 }
 @keyframes pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.3;transform:scale(.6)}}
-.order-text {font-size:12px;font-weight:400;color:rgba(255,255,255,.9);letter-spacing:.02em;}
-.order-time {color:#c8a96e;font-weight:600;}
+.order-text {font-size:12px;font-weight:400;color:#ffffff;letter-spacing:.02em;}
+.order-time {color:#ffffff;font-weight:600;}
 
 /* CONTENT — dark green background */
 .content {
@@ -312,8 +313,8 @@ footer::before {
   <div class="hero-right">
     <span class="hero-pill">16 Apr 2026</span>
     <div class="hero-photo-slot">
-      <img src="foto-del-giorno.jpg" alt="Piatto del giorno" class="hero-food-img" onerror="this.style.display='none'">
-      <div class="hero-photo-empty"><span>📸</span></div>
+      <img src="foto-del-giorno.jpg" alt="Piatto del giorno" class="hero-food-img" >
+      
     </div>
   </div>
 </header>
